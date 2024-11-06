@@ -218,20 +218,6 @@ i {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.footer-list {
-  text-decoration: none;
-  list-style: none;
-  color: rgb(61, 61, 61);
-  font-size: 18px;
-  line-height: 40px;
-  letter-spacing: 3px;
-  cursor: pointer;
-  transition: all 0.4s ease;
-  border: 2px solid transparent;
-  border-radius: 5px;
-  display: block;
-  margin-top: 10px;
-}
 /*---------------------------------SECTION4-------------------------------------*/
 .container-section4 {
   display: grid;
@@ -310,7 +296,23 @@ i {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
-
+/*---------------------------------footer-------------------------------------*/
+.list-footer {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer-list {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  display: block;
+}
 @media only screen and (max-width: 767px) {
   .amburgesa {
     font-size: 20px;
