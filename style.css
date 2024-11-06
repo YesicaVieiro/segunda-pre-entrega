@@ -313,7 +313,12 @@ i {
   cursor: pointer;
   display: block;
 }
+
+/*---------------------------------MEDIA-------------------------------------*/
 @media only screen and (max-width: 767px) {
+  Body {
+    overflow-x: hidden;
+  }
   .amburgesa {
     font-size: 20px;
     display: inline-block;
@@ -371,12 +376,10 @@ i {
     gap: 1rem;
     margin: 0;
   }
-  /*---------------------------------SECTION4-------------------------------------*/
   .titu-4 {
     font-size: 20px;
   }
-  .column-card {
-  }
+
   .text-precio {
     font-size: 15px;
   }
@@ -384,6 +387,7 @@ i {
   .container-section4 {
     grid-template-columns: 1fr;
     padding: 0;
+    margin-bottom: 5rem;
   }
 
   .column-card-image-container {
@@ -396,5 +400,13 @@ i {
     object-fit: contain;
     width: 180px;
     height: 100px;
+  }
+  /*---------------------------------footer-------------------------------------*/
+  .list-footer {
+    display: block;
+    margin-left: 3rem;
+  }
+  .footer-list {
+    font-size: 12px;
   }
 }
